@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-import image from './image'
+import Image from './image'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <image myImage ={'https://i.imgflip.com/1b7wbm.jpg'} />
+       <Image myImage ={"https://i.ebayimg.com/images/g/f6YAAOSwkGJcbutm/s-l300.jpg"} />
       </div>
     );
   }
